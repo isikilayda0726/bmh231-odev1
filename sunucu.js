@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
   // Ana sayfa
   if (req.url === '/') {
     res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-    res.end('<h1>Bozok Ana Sayfa</h1><p>Hos geldiniz</p><a href="/hakkimda">Hakkimda Sayfasi</a>');
+    res.end('<h1>Farkli Baslik</h1><p>Hos geldiniz</p><a href="/hakkimda">Hakkimda Sayfasi</a>');
   } 
   // Hakkımda sayfası
   else if (req.url === '/hakkimda') {
